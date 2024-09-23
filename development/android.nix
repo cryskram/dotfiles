@@ -25,7 +25,7 @@
 
     environment.sessionVariables = {
         ANDROID_SDK_ROOT = "/home/vageesh/Android/Sdk";
-        CHROME_EXECUTABLE = "${pkgs.google-chrome}/bin";
+        CHROME_EXECUTABLE = "${pkgs.google-chrome}/bin/google-chrome-stable";
     };
 
     environment.extraInit = ''
