@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  environment.systemPackages = ( with pkgs.gnome; [
+  environment.systemPackages = ( with pkgs; [
     gnome-tweaks
   ]) ++ ( with pkgs.gnomeExtensions; [
     dash-to-dock
@@ -20,7 +20,7 @@
     epiphany
     simple-scan
     yelp
-  ]) ++ ( with pkgs.gnome; [
+  ]) ++ ( with pkgs; [
     seahorse
     totem
     geary
