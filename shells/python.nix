@@ -9,6 +9,6 @@ pkgs.mkShell {
   ]);
 
   shellHook = ''
-    echo "Loaded Python Environment";
+    echo "Loaded python shell" | ${pkgs.cowsay}/bin/cowsay | ${pkgs.lolcat}/bin/lolcat;
   '';
 }

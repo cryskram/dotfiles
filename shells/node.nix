@@ -6,6 +6,6 @@ pkgs.mkShell {
   ];
   
   shellHook = ''
-    echo "Loaded Node enivonment";
+    echo "Loaded Node shell" | ${pkgs.cowsay}/bin/cowsay | ${pkgs.lolcat}/bin/lolcat;
   '';
 }

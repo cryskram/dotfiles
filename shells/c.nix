@@ -10,6 +10,6 @@ pkgs.mkShell {
   ];
   
   shellHook = ''
-    echo "Loaded C enivonment";
+    echo "Loaded C shell" | ${pkgs.cowsay}/bin/cowsay | ${pkgs.lolcat}/bin/lolcat;
   '';
 }
