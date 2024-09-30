@@ -20,6 +20,7 @@
         default = ( import ./shells/default.nix { inherit pkgs; } );
         c = ( import ./shells/c.nix { inherit pkgs; } );
         python = ( import ./shells/python.nix { inherit pkgs; } );
+        nodejs = ( import ./shells/node.nix { inherit pkgs; } );
       };      
       
       # NixOS system configuration

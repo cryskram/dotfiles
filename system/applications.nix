@@ -17,5 +17,7 @@
     touchegg
 
     gtk3
+
+    gitmoji-cli
   ];
 }
