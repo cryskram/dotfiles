@@ -1,10 +1,11 @@
-{ ... }:
+{ pkgs, ... }:
 
 {
   programs.fish = {
     enable = true;
     interactiveShellInit = ''
       set fish_greeting
+      ${pkgs.fastfetch}/bin/fastfetch -c examples/13.jsonc
       starship init fish | source
       set -x PATH /home/vageesh/development/flutter/bin $PATH
     '';
