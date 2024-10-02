@@ -1,6 +1,8 @@
 { pkgs, ... }:
 
 pkgs.mkShell {
+  name = "nodejs";
+
   buildInputs = with pkgs; [
     nodejs
   ];

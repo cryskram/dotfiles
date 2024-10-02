@@ -1,6 +1,8 @@
 { pkgs ? import <nixpkgs> { } }:
 
 pkgs.mkShell {
+  name = "default";
+
   nativeBuildInputs = with pkgs; [
   ];
   

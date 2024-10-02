@@ -1,6 +1,8 @@
 { pkgs, ... }:
 
 pkgs.mkShell {
+  name = "c";
+
   buildInputs = with pkgs; [
     gcc
     gnumake

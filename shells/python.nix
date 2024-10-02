@@ -1,6 +1,8 @@
 { pkgs, ... }:
 
 pkgs.mkShell {
+  name = "python";
+
   buildInputs = ( with pkgs; [
     python312
     pipenv
