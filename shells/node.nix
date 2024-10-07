@@ -5,6 +5,7 @@ pkgs.mkShell {
 
   buildInputs = with pkgs; [
     nodejs
+    prisma
   ];
   
   shellHook = ''

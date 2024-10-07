@@ -15,6 +15,7 @@
       nixpy = "nix develop ~/.dotfiles#python --command fish";
       nixc = "nix develop ~/.dotfiles#c --command fish";
       nixnode = "nix develop ~/.dotfiles#node --command fish";
+      nixrust = "nix develop ~/.dotfiles#rust --command fish";
       nixdef = "nix develop ~/.dotfiles --command fish";
     };
   };

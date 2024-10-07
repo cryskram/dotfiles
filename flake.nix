@@ -21,6 +21,7 @@
         c = ( import ./shells/c.nix { inherit pkgs; } );
         python = ( import ./shells/python.nix { inherit pkgs; } );
         node = ( import ./shells/node.nix { inherit pkgs; } );
+        rust = ( import ./shells/rust.nix { inherit pkgs; } );
       };      
       
       # NixOS system configuration
