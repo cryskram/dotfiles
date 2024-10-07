@@ -19,5 +19,7 @@
     gtk3
 
     gitmoji-cli
+
+    openssl
   ];
 }
