@@ -21,5 +21,7 @@
     gitmoji-cli
 
     openssl
+
+    obsidian
   ];
 }
