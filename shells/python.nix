@@ -8,6 +8,8 @@ pkgs.mkShell {
     pipenv
   ]) ++ ( with pkgs.python312Packages; [
     flask
+    numpy
+    matplotlib
   ]);
 
   shellHook = ''
