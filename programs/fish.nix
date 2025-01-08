@@ -12,11 +12,11 @@
     shellAliases = {
       ls = "eza --icons --all -l";
       nixbuild = "sudo nixos-rebuild switch --flake /home/vageesh/.dotfiles#nixos";
-      nixpy = "nix develop ~/.dotfiles#python --command fish";
-      nixc = "nix develop ~/.dotfiles#c --command fish";
-      nixnode = "nix develop ~/.dotfiles#node --command fish";
-      nixrust = "nix develop ~/.dotfiles#rust --command fish";
-      nixdef = "nix develop ~/.dotfiles --command fish";
+      nixpy = "nix develop ~/.dotfiles#python --command fish --no-update-lock-file";
+      nixc = "nix develop ~/.dotfiles#c --command fish --no-update-lock-file";
+      nixnode = "nix develop ~/.dotfiles#node --command fish --no-update-lock-file";
+      nixrust = "nix develop ~/.dotfiles#rust --command fish --no-update-lock-file";
+      nixdef = "nix develop ~/.dotfiles --command fish --no-update-lock-file";
     };
   };
 }

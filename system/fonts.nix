@@ -2,6 +2,7 @@
 
 {
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "VictorMono" "JetBrainsMono" ]; })
+    nerd-fonts.victor-mono
+    nerd-fonts.jetbrains-mono
   ];
 }

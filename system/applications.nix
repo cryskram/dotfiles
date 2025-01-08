@@ -23,5 +23,9 @@
     openssl
 
     obsidian
+
+    pandoc
+    texliveTeTeX
+    texliveFull
   ];
 }

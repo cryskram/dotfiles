@@ -10,6 +10,9 @@ pkgs.mkShell {
     flask
     numpy
     matplotlib
+    ipykernel
+    jupyter
+    ipython
   ]);
 
   shellHook = ''
