@@ -27,5 +27,7 @@
     pandoc
     texliveTeTeX
     texliveFull
+
+    jflap
   ];
 }
